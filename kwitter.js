@@ -1,23 +1,21 @@
 var firebaseConfig = {
-  apiKey: "AIzaSyCUICCbJkCBiEuVQB0WmP9tMWpaOiKwcdw",
-  authDomain: "let-schatit-web-app.firebaseapp.com",
-  databaseURL: "https://let-schatit-web-app-default-rtdb.firebaseio.com",
-  projectId: "let-schatit-web-app",
-  storageBucket: "let-schatit-web-app.appspot.com",
-  messagingSenderId: "366591642987",
-  appId: "1:366591642987:web:ed1310acdc81032117102e",
-  measurementId: "G-JEJ5TJ2N5R"
+  apiKey: "AIzaSyBTVZ1Hsop9Jt8k0mHEXegYSRWoZS3cQnE",
+  authDomain: "igishka2-tssixm.firebaseapp.com",
+  databaseURL: "https://newagent-fhepbr.firebaseio.com",
+  projectId: "igishka2-tssixm",
+  storageBucket: "igishka2-tssixm.appspot.com",
+  messagingSenderId: "14896371054",
+  appId: "1:14896371054:web:fc4e1d55b42d5a7f41dd7f"
 };
-
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
-  function addUser() 
-{
-    user_name = document.getElementById("user_name").value;
+function addUser() {
 
-    localStorage.setItem("user_name",user_name);
+  user_name = document.getElementById("user_name").value;
 
-    window.location = "kwitter_page.html";
+  localStorage.setItem("user_name", user_name);
+  
+    window.location = "kwitter_room.html";
 }
 
